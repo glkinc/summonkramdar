@@ -1,0 +1,429 @@
+/* ========================================================================== *\
+   IMAGE RESIZE
+\* ========================================================================== */
+
+img{max-width: 100%; height: auto !important;}
+img{ -ms-interpolation-mode: bicubic; }
+
+
+/* ========================================================================== *\
+   PHONE WIDTH
+\* ========================================================================== */
+
+@media screen and (max-width:600px) {
+
+	h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.subtext {
+		font-size: 20px;
+	}
+
+	.content {
+		width: auto;
+		padding: 0 20px;
+	}
+
+	#header {
+		display: none;
+	}
+
+	.menuBtn {
+		display: block;
+	}
+
+	.mobileMenu.open {
+		display: flex;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		z-index: 999999;
+	}
+
+	.noscroll {
+		overflow: hidden;
+	}
+
+	#hero {
+		height: 300px;
+		padding: 20px;
+		background-size: 248px auto;
+	}
+
+	.inner {
+		border: 1px solid #E6AF1E;
+	}
+
+	#logo {
+		width: 235px;
+		height: 52px;
+		top: 50%;
+		left: 50%;
+		margin: -27px 0 0 -117.5px;
+	}
+
+	.summon {
+		width: 100px;
+		bottom: 30px;
+		font-size: 20px;
+	}
+
+	.summon:after {
+		margin: 5px auto;
+	}
+
+	#game {
+		padding: 40px 0;
+	}
+
+	.intro {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#setup {
+		display: block;
+		width: auto;
+		position: static;
+		right: inherit;
+		top: inherit;
+		margin-top: 40px;
+	}
+
+	.lightning {
+		padding: 40px 0;
+	}
+
+	#faq {
+		padding: 40px 0 0 0;
+	}
+
+	#faq .content {
+		max-width: 100%;
+	}
+
+	#footer {
+		padding: 40px 0;
+		text-align: center;
+	}
+
+	#footer h3 {
+		display: block;
+		clear: both;
+		margin: 0 auto 20px auto;
+		font-size: 30px;
+	}
+
+	#footer .one_half.last {
+		text-align: center;
+	}
+
+	ul.social {
+		display: inline-block;
+		text-align: center;
+		margin: 0 0 0 0;
+	}
+
+	ul.social li {
+		margin: 0 5px;
+	}
+
+	ul.social li a {
+		font-size: 25px;
+		line-height: 25px;
+	}
+
+	a.accordianTitle {
+		text-align: center;
+	}
+
+	a.accordianTitle h3 {
+		font-size: 20px;
+		line-height: 24px;
+		letter-spacing: 0px;
+	}
+
+	a.accordianTitle:before {
+		display: block;
+		float: none;
+		clear: both;
+		margin: 0 auto 10px auto;
+	}
+
+	.accordianBody {
+		display: none;
+		text-align: center;
+		padding: 20px 20px 0 20px;
+	}
+
+	#gameDetails {
+		padding: 40px 0;
+	}
+
+	#gameDetails .one_fourth, #gameDetails .three_fourth.last {
+		clear: both;
+		width: 100%;
+		float: none;
+	}
+
+	#glkGames {
+		width: 195px;
+		margin: 0 auto 20px auto;
+	}
+
+	iframe {
+		display:block;
+		margin:0 auto;
+		width:70vw;
+		height:39vw;
+	}
+
+	.one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+		width:auto;
+		margin-right:0px;
+		float:none;
+		clear: both;
+		margin-bottom:20px;
+	}
+
+	.last{
+		margin-right:0 !important;
+		clear:both;
+	}
+
+	li.gf_left_half, li.gf_right_half {
+		clear: both !important;
+		float: none !important;
+	}
+
+	.mc_embed_signup .inner {
+		padding: 40px 20px;
+	}
+
+	.mc_embed_signup .inner input[type="email"] {
+		min-width: 0px;
+		max-width: 100%;
+		width: 100% !important;
+	}
+
+	.mc_embed_signup .inner input[type="submit"] {
+		min-width: 0px;
+		width: 100%;
+		padding: 15px 20px !important;
+	}
+
+	ul.details {
+		display: none;
+	}
+
+}
+
+/* ========================================================================== *\
+   TABLET WIDTH
+\* ========================================================================== */
+
+@media screen and (min-width:601px) and (max-width:1140px) {
+
+	.content {
+		width: auto;
+		padding: 0 40px;
+	}
+
+	#header {
+		padding: 40px;
+	}
+
+	#header.solid {
+		height: 80px;
+		padding: 30px 20px;
+	}
+
+	ul.menu {
+		text-align: center;
+	}
+
+	ul.menu li {
+		display: inline-block;
+	}
+
+	ul.menu li:first-child, ul.menu li:nth-child(2), ul.menu li:last-child, ul.menu li:nth-child(3) {
+		float: none;
+		margin: 0 10px;
+	}
+
+	#header.solid ul.menu li:first-child, #header.solid ul.menu li:nth-child(2) {
+		float: left;
+		display: block;
+		margin-right: 15px;
+	}
+
+	#header.solid ul.menu li:last-child, #header.solid ul.menu li:nth-child(3) {
+		float: right;
+		display: block;
+		margin-left: 15px;
+	}
+
+	ul.menu li a {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	#hero {
+		height: 600px;
+		padding: 20px;
+		background-size: 470px auto;
+	}
+
+	.inner {
+		border: 1px solid #E6AF1E;
+	}
+
+	#logo {
+		width: 440px;
+		height: 98px;
+		top: 50%;
+		left: 50%;
+		margin: -49px 0 0 -220px;
+	}
+
+	#logoSmall {
+		top: 20px;
+		left: 50%;
+		width: 200px;
+		height: 45px;
+		margin: 0 0 0 -100px;
+	}
+
+	#game {
+		padding: 100px 0 50px 0;
+	}
+
+	.intro {
+		width: 100%;
+		max-width: 550px;
+	}
+
+	#setup {
+		display: block;
+		width: auto;
+		position: static;
+		right: inherit;
+		top: inherit;
+		margin-top: -50px;
+	}
+
+	.lightning {
+		padding: 80px 0;
+	}
+
+	#faq .content {
+		max-width: 100%;
+	}
+
+	#gameDetails {
+		padding: 40px 0;
+	}
+
+	#gameDetails .one_fourth, #gameDetails .three_fourth.last {
+		clear: both;
+		width: 100%;
+		float: none;
+	}
+
+	#glkGames {
+		width: 195px;
+		margin: 0 auto 20px auto;
+	}
+
+	iframe {
+		display:block;
+		margin:0 auto;
+		width:70vw;
+		height:39vw;
+	}
+
+	li.gf_left_half, li.gf_right_half {
+		clear: both !important;
+		float: none !important;
+	}
+
+}
+
+/* ========================================================================== *\
+   DETAILS CONDITIONS
+\* ========================================================================== */
+
+@media screen and (min-width:841px) and (max-width:1140px) {
+
+	ul.details li:first-child {
+		border-right: 1px solid #F4E7D2;
+		padding: 25px 10px 25px 25px;
+	}
+
+	ul.details li:nth-child(2) {
+		padding: 25px;
+	}
+
+	ul.details li:last-child {
+		padding: 25px 10px 25px 25px;
+	}
+
+}
+
+@media screen and (min-width:701px) and (max-width:840px) {
+
+	ul.details li:first-child {
+		border-right: 1px solid #F4E7D2;
+		padding: 25px 10px 25px 10px;
+	}
+
+	ul.details li:nth-child(2) {
+		padding: 25px 10px;
+	}
+
+	ul.details li:last-child {
+		padding: 25px 10px 25px 10px;
+	}
+
+	h4 {
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+
+}
+
+@media screen and (max-width:700px) {
+
+	ul.details {
+		display: table;
+		width: 100%;
+		margin: 0 auto;
+		border-top: 1px solid #F4E7D2;
+		border-bottom: 1px solid #F4E7D2;
+	}
+
+	ul.details li {
+		display: block;
+		width: 100%;
+	}
+
+	ul.details li:first-child {
+		border-right: none;
+		border-bottom: 1px solid #F4E7D2;
+		padding: 25px 40px;
+	}
+
+	ul.details li:nth-child(2) {
+		border-bottom: 1px solid #F4E7D2;
+		padding: 25px 40px;
+	}
+
+	ul.details li:last-child {
+		border-left: none;
+		padding: 25px 40px;
+	}
+}
